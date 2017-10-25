@@ -1809,8 +1809,8 @@ public class Form extends Activity
     super.onCreateOptionsMenu(menu);
     // add the menu items
     // Comment out the next line if we don't want the exit button
-    addExitButtonToMenu(menu);
-    addAboutInfoToMenu(menu);
+    // addExitButtonToMenu(menu);
+    // addAboutInfoToMenu(menu);
     for (OnCreateOptionsMenuListener onCreateOptionsMenuListener : onCreateOptionsMenuListeners) {
       onCreateOptionsMenuListener.onCreateOptionsMenu(menu);
     }
